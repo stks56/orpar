@@ -3,7 +3,7 @@
     disk = {
       main = {
         type = "disk";
-        device = "/dev/sda"; # Replace with actual device path from `ls -l /dev/disk/by-id/`
+        device = ""; # overridden by disko-install --disk
         content = {
           type = "gpt";
           partitions = {
