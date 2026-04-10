@@ -4,6 +4,7 @@
   imports = [
     ./module/nixos/hyprland.nix
     ./module/nixos/wezterm.nix
+    ./module/nixos/firefox.nix
   ];
   nixpkgs.config.allowUnfree = true;
 
