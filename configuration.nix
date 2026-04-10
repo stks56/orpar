@@ -10,8 +10,9 @@
 
   time.timeZone = "Asia/Tokyo";
 
-  users.users.nixos = {
+  users.users.stks56 = {
     isNormalUser = true;
+    hashedPassword = "$6$.bjhLL2ocrNbUoB5$77WPGkvd2BnBmodkrlDf1D5.QI0dRxVv6az7vQPC5nxbzPGzD6f0rZsjsgS1JTCKC3bW7sSyD0aqPu6Bvfzq/.";
     extraGroups = [
       "wheel"
       "networkmanager"
