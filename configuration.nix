@@ -12,6 +12,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "orpar";
+  networking.networkmanager.enable = true;
 
   time.timeZone = "Asia/Tokyo";
 
