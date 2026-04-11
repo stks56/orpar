@@ -5,6 +5,7 @@
     ./module/nixos/hyprland.nix
     ./module/nixos/wezterm.nix
     ./module/nixos/firefox.nix
+    ./module/nixos/fcitx5.nix
   ];
   nixpkgs.config.allowUnfree = true;
 
