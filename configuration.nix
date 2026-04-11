@@ -9,7 +9,10 @@
   ];
   nixpkgs.config.allowUnfree = true;
 
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -38,6 +41,7 @@
   environment.systemPackages = with pkgs; [
     vim
     git
+    clang
   ];
 
   system.stateVersion = "24.11";
