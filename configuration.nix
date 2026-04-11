@@ -3,6 +3,7 @@
 {
   imports = [
     ./module/nixos/hyprland.nix
+    ./module/nixos/greetd.nix
     ./module/nixos/wezterm.nix
     ./module/nixos/firefox.nix
     ./module/nixos/fcitx5.nix
