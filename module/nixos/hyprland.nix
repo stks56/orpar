@@ -8,12 +8,12 @@
 
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
-    # Uncomment if cursor is invisible on NVIDIA
-    # WLR_NO_HARDWARE_CURSORS = "1";
+    LIBVA_DRIVER_NAME = "nvidia";
+    XDG_SESSION_TYPE = "wayland";
+    GBM_BACKEND = "nvidia-drm";
+    # May conflict with XWayland apps like Steam
+    # __GLX_VENDOR_LIBRARY_NAME = "nvidia";
   };
 
-  xdg.portal = {
-    enable = true;
-    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-  };
+  xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 }
