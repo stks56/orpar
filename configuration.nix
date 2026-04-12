@@ -46,6 +46,7 @@
     vim
     git
     clang
+    waybar
   ];
 
   system.stateVersion = "24.11";
