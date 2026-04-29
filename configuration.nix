@@ -48,6 +48,7 @@
       noto-fonts-cjk-sans
       noto-fonts-color-emoji
       font-awesome
+      googlesans-code
     ];
     fontconfig.defaultFonts = {
       sansSerif = [ "Noto Sans CJK JP" ];
