@@ -7,6 +7,7 @@
     ./module/nixos/wezterm.nix
     ./module/nixos/firefox.nix
     ./module/nixos/fcitx5.nix
+    ./module/nixos/steam.nix
   ];
   nixpkgs.config.allowUnfree = true;
 
