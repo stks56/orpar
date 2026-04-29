@@ -61,6 +61,8 @@
     git
     clang
     waybar
+    hyprpaper
+    waypaper
   ];
 
   system.stateVersion = "24.11";
